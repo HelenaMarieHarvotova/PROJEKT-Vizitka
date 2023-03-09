@@ -1,6 +1,98 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+
+
+
+ /*html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }*/
+
+body{
+   background-color: #b2bec3;
+   margin-top: 150px;
+   
+}
+
+.box{
+   border: 2px solid white;
+   background-color: white;   
+   border-radius: 10px;   
+   margin: auto;
+   width: 550px;
+   padding: 30px;
+   overflow: auto;
+   text-align: justify;
+   box-shadow: 2px 2px 5px gray ;
+   box-sizing:border-box;
+   
+}
+.elina img{
+
+   
+   
+}
+.box img{
+   width: 150px;
+   border-width: 3px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 50%;
+   float: right; 
+   position: absolute;
+right: 845px;
+top: 75px;
+
+}
+
+
+h1{
+   color:#d63031 ;
+   margin: 0;
+   font-size: 36px;
+   font-family: 'Nunito', sans-serif;
+   font-weight: bold;
+}
+
+p{
+   font-size: 18x;
+   font-family: 'Nunito', sans-serif;
+}
+
+
+.textik{
+   padding-top: 150px;
+}
+
+a{
+   color: white;
+   text-decoration: none;
+   
+}
+
+
+
+.odkaztwitter{
+   font-size: 18x;
+   background-color: #1da1f2;
+   border-radius: 5px;
+   font-family: 'Nunito', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 5px;
+}
+ 
+
+.odkazfacebook{
+   font-size: 18x;
+   background-color: #3b5998;
+   border-radius: 5px;
+   font-family: 'Nunito', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+
+   
+   
+}
+ 
 
 /*
 BARVY:
